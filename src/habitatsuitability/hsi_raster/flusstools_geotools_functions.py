@@ -1,5 +1,5 @@
 from osgeo import osr
-from config import *
+from habitatsuitability.config import *
 
 
 #cherry picked functions from the flusstools geotools version v1.1.6 https://github.com/Ecohydraulics/flusstools-docs?tab=readme-ov-file#readme

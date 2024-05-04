@@ -1,6 +1,6 @@
 [project]
 name = "Habita-Suitabillity-Modeling-Pckg_HenningNiklas"
-version = "0.0.3"
+version = "0.0.6"
 authors = [
   { name="Niklas Henning", email="henning.github@gmail.com" },
 ]

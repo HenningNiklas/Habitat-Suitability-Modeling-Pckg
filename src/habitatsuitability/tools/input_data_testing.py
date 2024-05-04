@@ -126,17 +126,4 @@ def raster_input_check(tifs):
 
 
 
-def main(parameter_tifs):
-    tifs = config_tif_inputs
-    raster_input_check() #checks if geo data of all tifs are the same
-
-if __name__ == '__main__':
-
-    # tif locations
-
-    # run code and evaluate performance
-    t0 = perf_counter()
-    main()
-    t1 = perf_counter()
-    print("Time elapsed: " + str(t1 - t0))
 

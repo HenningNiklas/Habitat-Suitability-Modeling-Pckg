@@ -315,11 +315,3 @@ def directory_creator(directory_path):
 
 
 
-if __name__ == '__main__':
-
-
-    # run code and evaluate performance
-    t0 = perf_counter()
-    main()
-    t1 = perf_counter()
-    print("Time elapsed: " + str(t1 - t0))

@@ -254,10 +254,11 @@ def run_hsi_habitat_evaluation(
         binning_hsi_forage_plot(bin_thresholds, bio_forage_ratio_results[1:], hsi_fr_thresholds)
         binning_hsi_forage_plot(bin_thresholds, bio_forage_ratio_results[1:], hsi_fr_thresholds,habitat=True)
         if agglomerativeclustering_binning:
-            print("Further binning into 5 using agglomerative clustering")
-            binning.algomerative_clustering_5bins(hsi_fr_thresholds, bio_forage_ratio_results[1:], bin_thresholds)
-        hsi_fr_thresholds.append(1)
-        print("Evaluated habitat thresholds are",hsi_fr_thresholds)
+            print("Agglomerative clustering not available, may show up in future release")
+            #print("Further binning into 5 using agglomerative clustering")
+            #binning.algomerative_clustering_5bins(hsi_fr_thresholds, bio_forage_ratio_results[1:], bin_thresholds)
+        #hsi_fr_thresholds.append(1)
+        #print("Evaluated habitat thresholds are",hsi_fr_thresholds)
 
     else:
         print("Error: No binning method selected")
